@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75BE25862947C332009B123A /* TaskHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BE25852947C332009B123A /* TaskHelper.swift */; };
+		75BE25882947C4E9009B123A /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BE25872947C4E9009B123A /* Extension.swift */; };
 		75CB0EE02947B0BA007F3C52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CB0EDF2947B0BA007F3C52 /* AppDelegate.swift */; };
 		75CB0EE22947B0BA007F3C52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CB0EE12947B0BA007F3C52 /* SceneDelegate.swift */; };
 		75CB0EE42947B0BA007F3C52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CB0EE32947B0BA007F3C52 /* ViewController.swift */; };
 		75CB0EE72947B0BA007F3C52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CB0EE52947B0BA007F3C52 /* Main.storyboard */; };
 		75CB0EE92947B0BC007F3C52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75CB0EE82947B0BC007F3C52 /* Assets.xcassets */; };
 		75CB0EEC2947B0BC007F3C52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CB0EEA2947B0BC007F3C52 /* LaunchScreen.storyboard */; };
+		75CB0EF42947B3DD007F3C52 /* TaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CB0EF32947B3DD007F3C52 /* TaskTableViewController.swift */; };
+		75CB0EF92947B4F5007F3C52 /* TaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CB0EF82947B4F5007F3C52 /* TaskItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		75BE25852947C332009B123A /* TaskHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskHelper.swift; sourceTree = "<group>"; };
+		75BE25872947C4E9009B123A /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		75CB0EDC2947B0BA007F3C52 /* Lesson-05.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson-05.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75CB0EDF2947B0BA007F3C52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75CB0EE12947B0BA007F3C52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		75CB0EE82947B0BC007F3C52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75CB0EEB2947B0BC007F3C52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75CB0EED2947B0BC007F3C52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75CB0EF32947B3DD007F3C52 /* TaskTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewController.swift; sourceTree = "<group>"; };
+		75CB0EF82947B4F5007F3C52 /* TaskItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		75CB0EDE2947B0BA007F3C52 /* Lesson-05 */ = {
 			isa = PBXGroup;
 			children = (
+				75CB0EF52947B3E3007F3C52 /* Task */,
 				75CB0EDF2947B0BA007F3C52 /* AppDelegate.swift */,
 				75CB0EE12947B0BA007F3C52 /* SceneDelegate.swift */,
 				75CB0EE32947B0BA007F3C52 /* ViewController.swift */,
@@ -63,8 +72,27 @@
 				75CB0EE82947B0BC007F3C52 /* Assets.xcassets */,
 				75CB0EEA2947B0BC007F3C52 /* LaunchScreen.storyboard */,
 				75CB0EED2947B0BC007F3C52 /* Info.plist */,
+				75BE25872947C4E9009B123A /* Extension.swift */,
 			);
 			path = "Lesson-05";
+			sourceTree = "<group>";
+		};
+		75CB0EF52947B3E3007F3C52 /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				75CB0EF72947B4E9007F3C52 /* Model */,
+				75CB0EF32947B3DD007F3C52 /* TaskTableViewController.swift */,
+				75BE25852947C332009B123A /* TaskHelper.swift */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		75CB0EF72947B4E9007F3C52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75CB0EF82947B4F5007F3C52 /* TaskItem.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +105,7 @@
 				75CB0ED82947B0BA007F3C52 /* Sources */,
 				75CB0ED92947B0BA007F3C52 /* Frameworks */,
 				75CB0EDA2947B0BA007F3C52 /* Resources */,
+				75CB0EF62947B43C007F3C52 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -133,6 +162,26 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		75CB0EF62947B43C007F3C52 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# exit 0\nPATH=/opt/homebrew/bin:$PATH\nif [ -f ~/com.raywenderlich.swiftlint.yml ]; then\n  if which swiftlint >/dev/null; then\n    swiftlint --no-cache --config ~/com.raywenderlich.swiftlint.yml\n  fi\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		75CB0ED82947B0BA007F3C52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,6 +189,10 @@
 			files = (
 				75CB0EE42947B0BA007F3C52 /* ViewController.swift in Sources */,
 				75CB0EE02947B0BA007F3C52 /* AppDelegate.swift in Sources */,
+				75BE25882947C4E9009B123A /* Extension.swift in Sources */,
+				75CB0EF92947B4F5007F3C52 /* TaskItem.swift in Sources */,
+				75CB0EF42947B3DD007F3C52 /* TaskTableViewController.swift in Sources */,
+				75BE25862947C332009B123A /* TaskHelper.swift in Sources */,
 				75CB0EE22947B0BA007F3C52 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
