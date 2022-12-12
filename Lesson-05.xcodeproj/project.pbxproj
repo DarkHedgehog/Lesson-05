@@ -22,6 +22,7 @@
 /* Begin PBXFileReference section */
 		75BE25852947C332009B123A /* TaskHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskHelper.swift; sourceTree = "<group>"; };
 		75BE25872947C4E9009B123A /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		75BE25892947CC3A009B123A /* Lesson5_HW_ChainOfResponsibility.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Lesson5_HW_ChainOfResponsibility.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		75CB0EDC2947B0BA007F3C52 /* Lesson-05.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson-05.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75CB0EDF2947B0BA007F3C52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75CB0EE12947B0BA007F3C52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +65,7 @@
 		75CB0EDE2947B0BA007F3C52 /* Lesson-05 */ = {
 			isa = PBXGroup;
 			children = (
+				75BE25892947CC3A009B123A /* Lesson5_HW_ChainOfResponsibility.playground */,
 				75CB0EF52947B3E3007F3C52 /* Task */,
 				75CB0EDF2947B0BA007F3C52 /* AppDelegate.swift */,
 				75CB0EE12947B0BA007F3C52 /* SceneDelegate.swift */,
