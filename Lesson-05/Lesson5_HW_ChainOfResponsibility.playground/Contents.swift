@@ -57,7 +57,7 @@ class PersonDataHandler: PersonsHandler {
             return next?.handlePersons(data: data)
         }
     }
-    class structPerson: Codable {
+    class StructPerson: Codable {
         var data: [Person]
     }
 }
@@ -72,7 +72,7 @@ class PersonResultHandler: PersonsHandler {
             return next?.handlePersons(data: data)
         }
     }
-    class structPerson: Codable {
+    class StructPerson: Codable {
         var result: [Person]
     }
 }
